@@ -28,6 +28,7 @@ header{
     height: 50px;
     position: absolute;
     right: 625px;
+    z-index: 0;
 }
 
 .logoWars{
@@ -35,7 +36,7 @@ header{
     height: 50px;
     position: absolute;
     left: 600px;
-    z-index: 2;
+    z-index: 0;
 }
 .logoKilo{
     width: 550px;
