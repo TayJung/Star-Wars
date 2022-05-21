@@ -2,4 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+}
+
+header{
+    max-width: 1920px;
+    margin: auto;
+    width: 100%;
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(./assets/star\ uó\ topo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+.logoStar{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 625px;
+}
+
+.logoWars{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 600px;
+    z-index: 2;
+}
+.logoKilo{
+    width: 550px;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    right: 325px;
+}
+
+.menu{
+    width: 70px;
+    position: absolute;
+    right: 300px;
+    bottom: 25px;
 }
