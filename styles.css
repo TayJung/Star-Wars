@@ -1,54 +1,225 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  max-width: 1920px;
+  margin: auto;
+  width: 100%;
+}
+.container-header {
+  width: 100%;
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: url(./assets/star\ uó\ topo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-header{
-    max-width: 1920px;
-    margin: auto;
-    width: 100%;
-    height: 70vh;
+.logoStar {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  top: 300px;
+  right: 820px;
+  z-index: 0;
+}
 
+.logoWars {
+  width: 300px;
+  height: 60px;
+  position: absolute;
+  bottom: 160px;
+  left: 780px;
+  z-index: 0;
+}
+.logoKilo {
+  width: 800px;
+  z-index: 1;
+  position: absolute;
+  top: 30px;
+  right: 405px;
+}
+
+.menu {
+  width: 90px;
+  position: absolute;
+  right: 300px;
+  bottom: 0px;
+}
+@media (max-width: 320px) {
+  .container-header {
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+  }
+  .logoKilo {
+    width: 220px;
+    top: 5px;
+    right: 65px;
+  }
+
+  .logoStar {
+    width: 80px;
+    height: 20px;
+    right: 180px;
+    top: 80px;
+  }
+  .logoWars {
+    width: 80px;
+    height: 20px;
+    left: 210px;
+    bottom: 30px;
+  }
+  .menu {
+    width: 50px;
+    left: 250px;
+    bottom: -30px;
+  }
+  .container--header {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+  }
+}
+
+.container--header {
+  background-image: url(./assets/sta\ uo\ robot.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 950px;
+}
+.container--headerUm {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  position: relative;
+}
+
+.img-red {
+  background-image: url(./assets/strom\ trupe\ r.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+  top: -40px;
+  right: 900px;
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+}
+
+.img-red h2{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img-red p{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+    width: 80%;
+}
+.img-red a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border:solid #fff 2px;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.img-red a:hover{
+    transition: 1s ease-in;
+    cursor: pointer;
+    width: 55%;
+}
+
+.img-sobre {
+  width: 700px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  right: 80px;
+}
+.img-linha {
+  position: absolute;
+  width: 90%;
+  bottom: 0;
+  left: 70px;
+}
+
+.container--headerDois{
+    width: 100%;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    background-image: url(./assets/star\ uó\ topo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
 }
 
-
-
-.logoStar{
-    width: 200px;
-    height: 50px;
+.imgUm{
     position: absolute;
-    right: 625px;
-    z-index: 0;
-}
-
-.logoWars{
-    width: 200px;
-    height: 50px;
-    position: absolute;
-    left: 600px;
-    z-index: 0;
-}
-.logoKilo{
-    width: 550px;
-    z-index: 1;
-    position: absolute;
+    width: 500px;
     top: 20px;
-    right: 325px;
+    right: 600px;
+    z-index: 0;
 }
 
-.menu{
-    width: 70px;
+.imgDois{
+    width: 200px;
+    height: 400px;
     position: absolute;
-    right: 300px;
-    bottom: 25px;
+    top:100px;
+    right: 120px;
 }
+.list{
+    position: absolute;
+    right: 380px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-between;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.list ul{
+    font-size: 20px;
+    line-height: 1.9;
+
+}
+.list li:hover{
+    background-color: #da2811;
+    cursor: pointer;
+}
+
+.list h2{
+    font-size:50px ;
+    font-weight: 400;
+}
+
+
+
+
