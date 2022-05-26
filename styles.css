@@ -190,14 +190,13 @@ header {
 
 main {
   width: 100%;
-  height: 3000px;
+  height: 1750px;
 }
 
 .sectionImage {
   background-color: #2d2d2d;
   width: 100%;
   height: 1500px;
-
   line-height: 0;
   position: relative;
 }
@@ -307,8 +306,8 @@ main {
     display: flex;
     position: absolute;
     top: -10px;
-    right: 200px;
-    font-size: 10px;
+    right: 195px;
+    font-size: 13px;
     text-transform: uppercase;
   }
   
@@ -375,8 +374,8 @@ main {
     display: flex;
     position: absolute;
     top: -10px;
-    right: 200px;
-    font-size: 10px;
+    right: 195px;
+    font-size: 13px;
     text-transform: uppercase;
   }
   .textImage-tres p {
@@ -510,7 +509,7 @@ main {
     position: absolute;
     top: -10px;
     right: 200px;
-    font-size: 10px;
+    font-size: 15px;
     text-transform: uppercase;
   }
   
@@ -546,13 +545,169 @@ main {
     display: block;
   }
 
-
 .image-seis {
   position: absolute;
   width: 1000px;
   right: 180px;
   top: 550px;
 }
+
+.legenda{
+    position: absolute;
+    top: 1170px;
+    width: 45%;
+    line-height: 1.3;
+    font-size: 13px;
+    right: 180px;
+    color: #fff;
+    font-weight: 100;
+    text-align: right;
+ }
+
+.player{
+    position: relative;
+    width: 100%;
+    height: 320px;
+    
+}
+
+.capitao{
+    width: 350px;
+    position: absolute;
+    top: -300px;
+    right: 900px;
+}
+
+.player h2{
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    top: -200px;
+    right: 550px;
+    word-spacing: 5px;
+    font-size: 30px;
+}
+
+.download{
+    width: 15%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 700px;
+    top: 20px;
+}
+.numeroUm{
+    font-size: 25px;
+}
+
+.numeroUm:hover{
+    font-weight: bold;
+}
+
+.escolher{
+    width: 15%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 450px;
+    top: 20px;
+}
+
+.numeroDois{
+    font-size: 25px;
+}
+.numeroDois:hover{
+    font-weight: bold;
+}
+
+.explorar{
+    width: 15%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 200px;
+    top: 20px;
+}
+
+.numeroTres{
+    font-size: 25px;
+}
+.numeroTres:hover{
+    font-weight: bold;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 100;
+    position: relative;
+    overflow: hidden;
+    border: solid black 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+ .btn:hover::before{
+    content: '';
+    animation: carregar 3s ease-in-out normal 1 both;
+    position: absolute;
+    background-color: #ff5a56;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: 3s ease-in-out;
+    opacity: 0.8;
+}
+
+@keyframes carregar{
+    0%{
+        left: 0px;
+    }
+    50%{
+        left: 50px;
+    }
+    
+    100%{
+        left: 100px;
+    }
+}
+
+
+.text{
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    height: 50px;
+    
+}
+
+.linha{
+    width: 30%;
+    height:3px;
+    background-color: black;
+}
+
+.linha:hover {
+    width: 30%;
+    height: 3px;
+    background-color: #ff5a56;
+}
+
 
 @media (max-width: 320px) {
   .container-header {
@@ -625,6 +780,7 @@ main {
     width: 150px;
     top: 220px;
     right: 160px;
+    z-index: 1;
   }
   .imgDois {
     width: 70px;
@@ -632,6 +788,7 @@ main {
     position: absolute;
     top: 230px;
     right: 10px;
+    z-index: 1;
   }
   .list {
     right: 70px;
@@ -649,6 +806,48 @@ main {
     width: 100%;
     height: 350px;
     background-color: #fff;
+  }
+  .sectionImage{
+      z-index:0;
+  }
+  .sectionImage h2 {
+      right: 10px;
+      top: 50px;
+      font-size: 17px;
+      
+  }
+  .image-um{
+      width: 250px;
+      right:35px;
+      top: 70px;
+  }
+  .textImage-um {
+      width: 255px;
+      height: 160px;
+      right: -30px;
+      top: 65px;
+  }
+  .textImage-um h3{
+      top: 10px;
+      right: 150px;
+      font-size: 14px;
+      width: 100px;
+      height: 30px;
+  }
+  .textImage-um p{
+    font-size: 10px;
+    top: 50px;
+    right: 0px;
+    width: 250px;
+    height: 60px;
+  }
+  .textImage-um a{
+    width: 70px;
+    height: 25px;
+    top: 120px;
+    right: 180px;
+    font-size: 13px;
+    border: solid 2px;
   }
 }
 
