@@ -26,35 +26,68 @@ header {
 }
 
 .logoStar {
-  width: 300px;
-  height: 60px;
+  width: 20%;
+  height: 12%;
   position: absolute;
-  top: 300px;
-  right: 820px;
+  top: 60%;
+  right: 60%;
   z-index: 0;
 }
 
 .logoWars {
-  width: 300px;
-  height: 60px;
+  width: 20%;
+  height: 12%;
   position: absolute;
-  bottom: 130px;
-  left: 780px;
+  bottom: 27%;
+  left: 60%;
   z-index: 0;
 }
 .logoKilo {
-  width: 800px;
+  width: 55%;
   z-index: 1;
   position: absolute;
-  top: 30px;
-  right: 405px;
+  top: 10%;
+  right: 30%;
+  filter: drop-shadow(30px 30px 15px rgba(0, 0, 0, 0.6)) contrast(1.1);
 }
 
 .menu {
-  width: 90px;
+  width: 7%;
   position: absolute;
-  right: 300px;
-  bottom: 0px;
+  left: 70%;
+  bottom: 0;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+.text-menu {
+  border-bottom: 3px solid #000;
+  padding-bottom: 1.3vh;
+  line-height: 1.4;
+}
+
+.header--menu {
+  display: flex;
+  align-items: center;
+  padding-top: 1vw;
+  width: 100%;
+  font-size: 0.66em;
+}
+
+.header--menu p span {
+  font-size: 1.5em;
+}
+.header-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 0.8vw;
+  text-decoration: none;
+  color: #000;
+  background-color: #9fb6ca;
+  margin: 3px 0 0 3px;
+  padding: 6px;
 }
 
 .container--header {
@@ -62,11 +95,11 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  height: 950px;
+  height: 155vh;
 }
 .container--headerUm {
   width: 100%;
-  height: 500px;
+  height: 80vh;
   display: flex;
   position: relative;
 }
@@ -80,17 +113,19 @@ header {
   align-items: center;
   justify-content: space-evenly;
   align-items: center;
-  width: 300px;
-  height: 450px;
-  top: -40px;
-  right: 900px;
+  width: 23%;
+  height: 78vh;
+  top: -6%;
+  right: 65%;
   position: absolute;
   z-index: 1;
   color: #fff;
 }
 
 .img-red h2 {
-  font-size: 40px;
+  font-size: 2em;
+  width: 50%;
+  height: 20vh;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
@@ -99,9 +134,10 @@ header {
 
 .img-red p {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 100%;
   text-align: left;
   width: 80%;
+  height: 15vh;
 }
 .img-red a {
   text-transform: uppercase;
@@ -109,34 +145,40 @@ header {
   color: #fff;
   border: solid #fff 2px;
   width: 50%;
-  height: 30px;
-  text-align: center;
+  height: 7vh;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10vh;
 }
 
 .img-red a:hover {
   transition: 1s ease-in;
   cursor: pointer;
+  background-color: black;
   width: 55%;
 }
 
 .img-sobre {
-  width: 700px;
-  height: 200px;
+  width: 50%;
+  height: 35vh;
   position: absolute;
-  top: 200px;
-  right: 80px;
+  top: 30vh;
+  right: 5vw;
 }
 .img-linha {
   position: absolute;
-  width: 90%;
+  width: 85%;
+  height: 0.8vh;
   bottom: 0;
-  left: 70px;
+  left: 10vw;
+  background-color: #707070;
 }
 
 .container--headerDois {
   width: 100%;
-  height: 450px;
+  height: 72vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,23 +187,26 @@ header {
 
 .imgUm {
   position: absolute;
-  width: 500px;
-  top: 20px;
-  right: 600px;
-  z-index: 0;
+  width: 37%;
+  top: 5vh;
+  right: 41vw;
+  filter: drop-shadow(30px 30px 15px rgba(0, 0, 0, 0.4)) contrast(1.1);
+  z-index: 1;
 }
 
 .imgDois {
-  width: 200px;
-  height: 400px;
+  width: 15%;
+  height: 65vh;
   position: absolute;
-  top: 100px;
-  right: 120px;
+  top: 17vh;
+  right: 10vw;
+  filter: drop-shadow(30px 30px 15px rgba(0, 0, 0, 0.4)) contrast(1.1);
+  z-index: 1;
 }
 .list {
   position: absolute;
-  right: 380px;
-  width: 400px;
+  right: 25vw;
+  width: 30%;
   display: flex;
   flex-direction: column;
   text-align: right;
@@ -171,7 +216,7 @@ header {
 }
 
 .list ul {
-  font-size: 20px;
+  font-size: 1.3em;
   line-height: 1.9;
 }
 .list li:hover {
@@ -180,7 +225,7 @@ header {
 }
 
 .list h2 {
-  font-size: 50px;
+  font-size: 3.1em;
   font-weight: 400;
 }
 
@@ -190,46 +235,69 @@ header {
 
 main {
   width: 100%;
-  height: 1750px;
+  height: 290vh;
 }
 
 .sectionImage {
   background-color: #2d2d2d;
   width: 100%;
-  height: 1500px;
+  height: 230vh;
   line-height: 0;
   position: relative;
 }
 
 .sectionImage h2 {
-  width: 200px;
-  height: 50px;
+  width: 15%;
+  height: 8vh;
   color: #fff;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 2em;
   position: absolute;
-  top: 100px;
-  right: 900px;
+  top: 17vh;
+  right: 65vw;
 }
 .image-um {
-  width: 500px;
+  width: 37%;
   position: absolute;
-  top: 200px;
-  right: 680px;
+  top: 32vh;
+  right: 49.8vw;
   z-index: 0;
 }
 
 .textImage-um {
-  width: 520px;
+  width: 37.5%;
   display: none;
-  height: 320px;
+  height: 51vh;
   position: relative;
-  top: 190px;
-  right: -160px;
+  top: 31vh;
+  right: -11.5vw;
   z-index: 1;
   color: #fff;
   background-color: #ff5a56;
   opacity: 0.56;
+}
+.textImage-um::after {
+  position: absolute;
+  content: "";
+  top: 6%;
+  left: 3.5%;
+  display: block;
+  width: 7%;
+  height: 10%;
+  border-top: 4px solid #fff;
+  border-left: 4px solid #fff;
+}
+
+.textImage-um::before {
+  position: absolute;
+  content: "";
+  border-bottom: solid #fff 4px;
+  border-right: solid #fff 4px;
+  bottom: 6%;
+  right: 3.5%;
+  width: 7%;
+  height: 10%;
+  display: block;
 }
 
 .divSectionImageUm:hover .textImage-um {
@@ -237,35 +305,35 @@ main {
 }
 
 .textImage-um h3 {
-  width: 190px;
-  height: 80px;
+  width: 30%;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   display: flex;
   position: absolute;
-  top: 20px;
-  right: 330px;
-  font-size: 20px;
+  top: 2vh;
+  right: 24vw;
+  font-size: 1.3em;
   text-transform: uppercase;
 }
 
 .textImage-um p {
   width: 80%;
-  height: 100px;
+  height: 18vh;
   position: absolute;
-  top: 100px;
-  right: 75px;
+  top: 15vh;
+  right: 6vw;
   display: flex;
   justify-content: center;
   align-items: center;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 500;
 }
 .textImage-um a {
   width: 30%;
-  height: 50px;
+  height: 7vh;
   border: solid 3px;
   color: #fff;
   text-decoration: none;
@@ -273,474 +341,585 @@ main {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 220px;
-  right: 330px;
+  top: 37vh;
+  right: 24vw;
 }
 
 .image-dois {
-  width: 250px;
+  width: 18.7%;
   position: absolute;
-  top: 198px;
-  right: 430px;
+  top: 31.5vh;
+  right: 31.5vw;
 }
- .textImage-dois{
-    width: 258px;
-    display:none ;
-    height: 160px;
-    position: relative;
-    top: 195px;
-    right: -665px;
-    z-index: 1;
-    color: #fff;
-    background-color: #ff5a56;
-    opacity: 0.56;
- }
- .textImage-dois h3 {
-    width: 50px;
-    height: 80px;
-    line-height: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    position: absolute;
-    top: -10px;
-    right: 195px;
-    font-size: 13px;
-    text-transform: uppercase;
-  }
-  
-.textImage-dois p {
-    width: 80%;
-    height: 100px;
-    position: absolute;
-    top: 30px;
-    right: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.5;
-    font-weight: 300;
-    font-size: 10px;
-  }
-  .textImage-dois a {
-    width: 30%;
-    height: 30px;
-    border: solid 2px;
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 120px;
-    right: 170px;
-    font-size: 15px;
-  }
+.textImage-dois {
+  width: 20%;
+  display: none;
+  height: 26vh;
+  position: relative;
+  top: 30.5vh;
+  right: -47.5vw;
+  z-index: 1;
+  color: #fff;
+  background-color: #ff5a56;
+  opacity: 0.56;
+}
+.textImage-dois::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7%;
+  height: 10%;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  top: 5%;
+  right: 17.5vw;
+}
 
-  .divSectionImageDois:hover .textImage-dois {
-    display: block;
-  }
+.textImage-dois::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7%;
+  height: 10%;
+  border-bottom: solid #fff 3px;
+  border-right: #fff solid 3px;
+  bottom: 5%;
+  left: 17.5vw;
+}
+
+.textImage-dois h3 {
+  width: 30%;
+  height: 8vh;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 2vh;
+  right: 12.7vw;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.textImage-dois p {
+  width: 80%;
+  height: 10vh;
+  position: absolute;
+  top: 8vh;
+  right: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 0.7em;
+  opacity: initial;
+}
+.textImage-dois a {
+  width: 30%;
+  height: 5vh;
+  border: solid 2px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18.5vh;
+  right: 13vw;
+  font-size: 1em;
+  opacity: initial;
+}
+
+.divSectionImageDois:hover .textImage-dois {
+  display: block;
+}
 
 .image-tres {
-  width: 250px;
+  width: 18.7%;
   position: absolute;
-  top: 198px;
-  right: 180px;
+  top: 31.5vh;
+  right: 13.2vw;
 }
 
-.textImage-tres{
-    width: 258px;
-    display:none ;
-    height: 160px;
-    position: relative;
-    top: 195px;
-    right: -915px;
-    z-index: 1;
-    color: #fff;
-    background-color: #ff5a56;
-    opacity: 0.56;
- }
+.textImage-tres {
+  width: 20%;
+  display: none;
+  height: 26vh;
+  position: relative;
+  top: 30.5vh;
+  right: -65.8vw;
+  z-index: 1;
+  color: #fff;
+  background-color: #ff5a56;
+  opacity: 0.56;
+}
 
- .textImage-tres h3 {
-    width: 50px;
-    height: 80px;
-    line-height: 1.3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    position: absolute;
-    top: -10px;
-    right: 195px;
-    font-size: 13px;
-    text-transform: uppercase;
-  }
-  .textImage-tres p {
-    width: 80%;
-    height: 100px;
-    position: absolute;
-    top: 30px;
-    right: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.5;
-    font-weight: 300;
-    font-size: 10px;
-  }
+.textImage-tres h3 {
+  width: 30%;
+  height: 8vh;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 2vh;
+  right: 12.7vw;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.textImage-tres p {
+  width: 80%;
+  height: 10vh;
+  position: absolute;
+  top: 8vh;
+  right: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 0.7em;
+  opacity: initial;
+}
 
-  .textImage-tres a {
-    width: 30%;
-    height: 30px;
-    border: solid 2px;
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 120px;
-    right: 170px;
-    font-size: 15px;
-  }
+.textImage-tres a {
+  width: 30%;
+  height: 5vh;
+  border: solid 2px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18.5vh;
+  right: 13vw;
+  font-size: 1em;
+  opacity: initial;
+}
 
-  .divSectionImageTres:hover .textImage-tres {
-    display: block;
-  }
+.textImage-tres::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7%;
+  height: 10%;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  top: 5%;
+  right: 17.5vw;
+}
+
+.textImage-tres::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7%;
+  height: 10%;
+  border-bottom: solid #fff 3px;
+  border-right: #fff solid 3px;
+  bottom: 5%;
+  left: 17.5vw;
+}
+
+.divSectionImageTres:hover .textImage-tres {
+  display: block;
+}
 
 .image-quatro {
-  width: 250px;
+  width: 18.7%;
   position: absolute;
-  top: 350px;
-  right: 430px;
+  top: 56vh;
+  right: 31.5vw;
 }
-.textImage-quatro{
-    width: 258px;
-    display:none ;
-    height: 160px;
-    position: relative;
-    top: 350px;
-    right: -665px;
-    z-index: 1;
-    color: #fff;
-    background-color: #ff5a56;
-    opacity: 0.56;
- }
+.textImage-quatro {
+  width: 20%;
+  display: none;
+  height: 26vh;
+  position: relative;
+  top: 55vh;
+  right: -47.5vw;
+  z-index: 1;
+  color: #fff;
+  background-color: #ff5a56;
+  opacity: 0.56;
+}
 
- .textImage-quatro h3 {
-    width: 50px;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    position: absolute;
-    top: -15px;
-    right: 190px;
-    font-size: 15px;
-    text-transform: uppercase;
-  }
+.textImage-quatro h3 {
+  width: 30%;
+  height: 8vh;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 2vh;
+  right: 12.7vw;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  opacity: 1;
+}
 
-  .textImage-quatro p {
-    width: 80%;
-    height: 100px;
-    position: absolute;
-    top: 30px;
-    right: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.5;
-    font-weight: 300;
-    font-size: 10px;
-  }
+.textImage-quatro p {
+  width: 80%;
+  height: 10vh;
+  position: absolute;
+  top: 8vh;
+  right: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 0.7em;
+  opacity: initial;
+}
 
-  .textImage-quatro a {
-    width: 30%;
-    height: 30px;
-    border: solid 2px;
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 120px;
-    right: 170px;
-    font-size: 15px;
-  }
+.textImage-quatro a {
+  width: 30%;
+  height: 5vh;
+  border: solid 2px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18.5vh;
+  right: 13vw;
+  font-size: 1em;
+  opacity: initial;
+}
 
-  .divSectionImageQuatro:hover .textImage-quatro {
-    display: block;
-  }
+.textImage-quatro::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7%;
+  height: 10%;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  top: 5%;
+  right: 17.5vw;
+}
+
+.textImage-quatro::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7%;
+  height: 10%;
+  border-bottom: solid #fff 3px;
+  border-right: #fff solid 3px;
+  bottom: 5%;
+  left: 17.5vw;
+}
+
+.divSectionImageQuatro:hover .textImage-quatro {
+  display: block;
+}
 
 .image-cinco {
-  width: 250px;
+  width: 18.7%;
   position: absolute;
-  top: 350px;
-  right: 180px;
+  top: 56vh;
+  right: 13.2vw;
 }
 
-.textImage-cinco{
-    width: 258px;
-    display:none ;
-    height: 160px;
-    position: relative;
-    top: 345px;
-    right: -915px;
-    z-index: 1;
-    color: #fff;
-    background-color: #ff5a56;
-    opacity: 0.56;
- }
- .textImage-cinco h3 {
-    width: 50px;
-    height: 80px;
-    line-height: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    position: absolute;
-    top: -10px;
-    right: 200px;
-    font-size: 15px;
-    text-transform: uppercase;
-  }
-  
-.textImage-cinco p {
-    width: 80%;
-    height: 100px;
-    position: absolute;
-    top: 30px;
-    right: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.5;
-    font-weight: 300;
-    font-size: 10px;
-  }
-  .textImage-cinco a {
-    width: 30%;
-    height: 30px;
-    border: solid 2px;
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 120px;
-    right: 170px;
-    font-size: 15px;
-  }
+.textImage-cinco {
+  width: 20%;
+  display: none;
+  height: 26vh;
+  position: relative;
+  top: 55vh;
+  right: -65.7vw;
+  z-index: 1;
+  color: #fff;
+  background-color: #ff5a56;
+  opacity: 0.56;
+}
+.textImage-cinco h3 {
+  width: 30%;
+  height: 8vh;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 2vh;
+  right: 14vw;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  opacity: 1;
+}
 
-  .divSectionImageCinco:hover .textImage-cinco {
-    display: block;
-  }
+.textImage-cinco p {
+  width: 80%;
+  height: 10vh;
+  position: absolute;
+  top: 8vh;
+  right: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 0.7em;
+  opacity: initial;
+}
+.textImage-cinco a {
+  width: 30%;
+  height: 5vh;
+  border: solid 2px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 18.5vh;
+  right: 13vw;
+  font-size: 1em;
+  opacity: initial;
+}
+
+.textImage-cinco::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7%;
+  height: 10%;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  top: 5%;
+  right: 17.5vw;
+}
+
+.textImage-cinco::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 7%;
+  height: 10%;
+  border-bottom: solid #fff 3px;
+  border-right: #fff solid 3px;
+  bottom: 5%;
+  left: 17.5vw;
+}
+
+.divSectionImageCinco:hover .textImage-cinco {
+  display: block;
+}
 
 .image-seis {
   position: absolute;
-  width: 1000px;
-  right: 180px;
-  top: 550px;
+  width: 74.5%;
+  right: 13vw;
+  top: 86vh;
 }
 
-.legenda{
-    position: absolute;
-    top: 1170px;
-    width: 45%;
-    line-height: 1.3;
-    font-size: 13px;
-    right: 180px;
-    color: #fff;
-    font-weight: 100;
-    text-align: right;
- }
-
-.player{
-    position: relative;
-    width: 100%;
-    height: 320px;
-    
+.legenda {
+  position: absolute;
+  top: 185vh;
+  width: 45%;
+  line-height: 1.3;
+  font-size: 0.8em;
+  right: 13vw;
+  color: #fff;
+  font-weight: 100;
+  text-align: right;
 }
 
-.capitao{
-    width: 350px;
-    position: absolute;
-    top: -300px;
-    right: 900px;
+.player {
+  position: relative;
+  width: 100%;
+  height: 52vh;
 }
 
-.player h2{
-    position: absolute;
-    color: #fff;
-    text-transform: uppercase;
-    top: -200px;
-    right: 550px;
-    word-spacing: 5px;
-    font-size: 30px;
+.capitao {
+  width: 26%;
+  position: absolute;
+  top: -47vh;
+  right: 67vw;
 }
 
-.download{
-    width: 15%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    position: absolute;
-    right: 700px;
-    top: 20px;
-}
-.numeroUm{
-    font-size: 25px;
+.player h2 {
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  top: -25vh;
+  right: 40vw;
+  word-spacing: 5px;
+  font-size: 2em;
 }
 
-.numeroUm:hover{
-    font-weight: bold;
+.download {
+  width: 15%;
+  height: 32.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  right: 51vw;
+  top: 3vh;
+}
+.numero {
+  font-size: 1.5em;
 }
 
-.escolher{
-    width: 15%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    position: absolute;
-    right: 450px;
-    top: 20px;
+.numero:hover {
+  font-weight: bold;
 }
 
-.numeroDois{
-    font-size: 25px;
-}
-.numeroDois:hover{
-    font-weight: bold;
-}
-
-.explorar{
-    width: 15%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    position: absolute;
-    right: 200px;
-    top: 20px;
+.escolher {
+  width: 15%;
+  height: 32.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  right: 33vw;
+  top: 3vh;
 }
 
-.numeroTres{
-    font-size: 25px;
-}
-.numeroTres:hover{
-    font-weight: bold;
-}
-
-.btn{
-    text-decoration: none;
-    background-color: black;
-    width: 100px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-weight: 100;
-    position: relative;
-    overflow: hidden;
-    border: solid black 2px;
-    text-transform: uppercase;
-    font-size: 15px;
+.explorar {
+  width: 15%;
+  height: 32.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  right: 15vw;
+  top: 3vh;
 }
 
- .btn:hover::before{
-    content: '';
-    animation: carregar 3s ease-in-out normal 1 both;
-    position: absolute;
-    background-color: #ff5a56;
-    width: 100px;
-    height: 30px;
-    cursor: pointer;
-    transition: 3s ease-in-out;
-    opacity: 0.8;
+.btn {
+  text-decoration: none;
+  background-color: black;
+  width: 54%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 100;
+  position: relative;
+  overflow: hidden;
+  border: solid black 2px;
+  text-transform: uppercase;
+  font-size: 1em;
 }
 
-@keyframes carregar{
-    0%{
-        left: 0px;
-    }
-    50%{
-        left: 50px;
-    }
-    
-    100%{
-        left: 100px;
-    }
+.btn:hover::before {
+  content: "";
+  animation: carregar 3s ease-in-out normal 1 both;
+  position: absolute;
+  background-color: #ff5a56;
+  width: 100%;
+  height: 5vh;
+  cursor: pointer;
+  transition: 3s ease-in-out;
+  opacity: 0.8;
 }
 
+@keyframes carregar {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: 50%;
+  }
 
-.text{
-    text-align: center;
-    font-size: 15px;
-    width: 80%;
-    height: 50px;
-    
+  100% {
+    left: 100%;
+  }
 }
 
-.linha{
-    width: 30%;
-    height:3px;
-    background-color: black;
+.text {
+  text-align: center;
+  font-size: 0.9em;
+  width: 75%;
+  height: 7vh;
+}
+
+.linha {
+  width: 30%;
+  height: 0.5vh;
+  background-color: black;
 }
 
 .linha:hover {
-    width: 30%;
-    height: 3px;
-    background-color: #ff5a56;
+  width: 30%;
+  height: 0.5vh;
+  background-color: #ff5a56;
 }
-
 
 @media (max-width: 320px) {
   .container-header {
     width: 100%;
-    height: 130px;
+    height: 25vh;
     background-size: cover;
   }
   .logoKilo {
-    width: 220px;
-    top: 5px;
-    right: 65px;
+    width: 68%;
+    top: 1.3vh;
+    right: 20vw;
   }
 
   .logoStar {
-    width: 80px;
-    height: 20px;
-    right: 180px;
-    top: 80px;
+    width: 26%;
+    height: 3.5vh;
+    right: 55vw;
+    top: 15vh;
   }
   .logoWars {
-    width: 80px;
-    height: 20px;
-    left: 210px;
-    bottom: 30px;
+    width: 26%;
+    height: 3.5vh;
+    left: 65vw;
+    bottom: 6vh;
   }
   .menu {
-    width: 50px;
-    left: 250px;
-    bottom: -30px;
+    width: 18%;
+    left: 75%;
+    bottom: -5.5vh;
   }
+  .text-menu {
+    font-size: 0.5em;
+    border-bottom: 2px solid #000;
+  }
+
+  .header--menu {
+    font-size: 0.4em;
+  }
+
+  .header--menu p span {
+    font-size: 1.2em;
+  }
+
+  .header-menu-btn {
+    width: 5px;
+    height: 0.4vw;
+    margin: 2px 0 0 2px;
+    padding: 3px;
+  }
+
   .container--header {
     width: 100%;
-    height: 500px;
+    height: 93vh;
     background-size: cover;
   }
   .img-sobre {
@@ -748,299 +927,322 @@ main {
   }
   .img-sobreUm {
     display: initial;
-    width: 270px;
+    width: 80%;
     position: absolute;
-    top: 400px;
-    right: 20px;
+    top: 74.5vh;
+    right: 9vw;
   }
 
   .img-red {
-    width: 200px;
-    top: 40px;
-    height: 300px;
-    right: 20px;
+    width: 65%;
+    top: 10vh;
+    height: 60vh;
+    right: 8vw;
   }
   .img-red h2 {
-    font-size: 30px;
+    font-size: 1.6em;
   }
   .img-red p {
-    font-size: 13px;
+    font-size: 0.7em;
     width: 70%;
   }
   .img-linha {
     width: 80%;
-    height: 25px;
-    bottom: -200px;
-    left: 40px;
+    height: 0.8vh;
+    bottom: -47vh;
+    left: 12vw;
   }
   .container--headerDois {
-    height: 350px;
+    height: 64.5vh;
+    top: 13vh;
   }
   .imgUm {
-    width: 150px;
-    top: 220px;
-    right: 160px;
+    width: 50%;
+    top: 41vh;
+    right: 50vw;
     z-index: 1;
   }
   .imgDois {
-    width: 70px;
-    height: 130px;
+    width: 25%;
+    height: 26vh;
     position: absolute;
-    top: 230px;
-    right: 10px;
+    top: 41vh;
+    right: 3vw;
     z-index: 1;
   }
   .list {
-    right: 70px;
-    width: 170px;
-    height: 150px;
-    top: 190px;
+    right: 29vw;
+    width: 49%;
+    height: 30vh;
+    top: 34vh;
   }
   .list h2 {
-    font-size: 19px;
+    font-size: 1em;
   }
   .list ul {
-    font-size: 9px;
+    font-size: 0.5em;
   }
   .fundoBranco {
     width: 100%;
-    height: 350px;
+    height: 66vh;
     background-color: #fff;
   }
-  .sectionImage{
-      z-index:0;
+  .sectionImage {
+    z-index: 0;
+    height: 240vh;
   }
   .sectionImage h2 {
-      right: 10px;
-      top: 50px;
-      font-size: 17px;
-      
+    right: 50vw;
+    top: 10vh;
+    font-size: 1em;
   }
-  .image-um{
-      width: 250px;
-      right:35px;
-      top: 70px;
+  .image-um {
+    width: 78%;
+    right: 11vw;
+    top: 12.5vh;
   }
   .textImage-um {
-      width: 255px;
-      height: 160px;
-      right: -30px;
-      top: 65px;
+    width: 79%;
+    height: 30vh;
+    right: -10vw;
+    top: 11.5vh;
   }
-  .textImage-um h3{
-      top: 10px;
-      right: 150px;
-      font-size: 14px;
-      width: 100px;
-      height: 30px;
+  .textImage-um h3 {
+    top: 3vh;
+    right: 42vw;
+    font-size: 0.9em;
+    width: 40%;
+    height: 4vh;
   }
-  .textImage-um p{
-    font-size: 10px;
-    top: 50px;
-    right: 0px;
-    width: 250px;
-    height: 60px;
+  .textImage-um p {
+    font-size: 0.7em;
+    top: 9vh;
+    right: 5vw;
+    width: 90%;
+    height: 13vh;
   }
-  .textImage-um a{
-    width: 70px;
-    height: 25px;
-    top: 120px;
-    right: 180px;
-    font-size: 13px;
+  .textImage-um a {
+    width: 30%;
+    height: 5vh;
+    top: 22.5vh;
+    right: 52vw;
+    font-size: 0.8em;
     border: solid 2px;
   }
-}
-
-@media (width: 375px) {
-  .container-header {
-    width: 100%;
-    height: 150px;
-    background-size: cover;
+  .image-dois {
+    width: 78%;
+    right: 11vw;
+    top: 41vh;
   }
-  .logoKilo {
-    width: 230px;
-    top: 5px;
-    right: 105px;
+  .textImage-dois {
+    width: 79%;
+    height: 30vh;
+    right: -10vw;
+    top: 40vh;
   }
 
-  .logoStar {
-    width: 80px;
-    height: 20px;
-    right: 220px;
-    top: 80px;
+  .textImage-dois h3 {
+    top: 3vh;
+    right: 42vw;
+    font-size: 0.9em;
+    width: 40%;
+    height: 4vh;
   }
-  .logoWars {
-    width: 80px;
-    height: 20px;
-    left: 225px;
-    bottom: 45px;
+  .textImage-dois p {
+    font-size: 0.7em;
+    top: 9vh;
+    right: 5vw;
+    width: 90%;
+    height: 13vh;
   }
-  .menu {
-    width: 50px;
-    left: 280px;
-    bottom: -30px;
+  .textImage-dois a {
+    width: 30%;
+    height: 5vh;
+    top: 22.5vh;
+    right: 52vw;
+    font-size: 0.8em;
+    border: solid 2px;
   }
-  .container--header {
-    width: 100%;
-    height: 500px;
-    background-size: cover;
+  .textImage-dois::after {
+    right: 70vw;
   }
-  .img-sobre {
-    display: none;
-  }
-  .img-sobreUm {
-    display: initial;
-    width: 270px;
-    position: absolute;
-    top: 400px;
-    right: 20px;
+  .textImage-dois::before {
+    left: 70vw;
   }
 
-  .img-red {
-    width: 200px;
-    top: 40px;
-    height: 300px;
-    right: 20px;
+  .image-tres {
+    width: 78%;
+    right: 11vw;
+    top: 70vh;
   }
-  .img-red h2 {
-    font-size: 30px;
-  }
-  .img-red p {
-    font-size: 13px;
-    width: 70%;
-  }
-  .img-linha {
-    height: 25px;
-    bottom: -200px;
-    left: 10px;
-  }
-  .container--headerDois {
-    height: 350px;
-  }
-  .imgUm {
-    width: 150px;
-    top: 220px;
-    right: 220px;
-  }
-  .imgDois {
-    width: 70px;
-    height: 130px;
-    position: absolute;
-    top: 230px;
-    right: 30px;
-  }
-  .list {
-    right: 110px;
-    width: 170px;
-    height: 50px;
-    top: 190px;
-  }
-  .list h2 {
-    font-size: 19px;
-  }
-  .list ul {
-    font-size: 9px;
-  }
-  .fundoBranco {
-    width: 100%;
-    height: 350px;
-    background-color: #fff;
-  }
-}
-
-@media (width: 425px) {
-  .container-header {
-    width: 100%;
-    height: 150px;
-    background-size: cover;
-  }
-  .logoKilo {
-    width: 240px;
-    top: 5px;
-    right: 135px;
+  .textImage-tres {
+    width: 79%;
+    height: 30vh;
+    right: -10vw;
+    top: 69.5vh;
   }
 
-  .logoStar {
-    width: 80px;
-    height: 20px;
-    right: 260px;
-    top: 90px;
+  .textImage-tres h3 {
+    top: 3vh;
+    right: 42vw;
+    font-size: 0.9em;
+    width: 40%;
+    height: 4vh;
   }
-  .logoWars {
-    width: 85px;
-    height: 20px;
-    left: 245px;
-    bottom: 40px;
+  .textImage-tres p {
+    font-size: 0.7em;
+    top: 9vh;
+    right: 5vw;
+    width: 90%;
+    height: 13vh;
   }
-  .menu {
-    width: 50px;
-    left: 280px;
-    bottom: -30px;
+  .textImage-tres a {
+    width: 30%;
+    height: 5vh;
+    top: 22.5vh;
+    right: 52vw;
+    font-size: 0.8em;
+    border: solid 2px;
   }
-  .container--header {
-    width: 100%;
-    height: 500px;
-    background-size: cover;
+  .textImage-tres::after {
+    right: 70vw;
   }
-  .img-sobre {
-    display: none;
-  }
-  .img-sobreUm {
-    display: initial;
-    width: 270px;
-    position: absolute;
-    top: 400px;
-    right: 20px;
+  .textImage-tres::before {
+    left: 70vw;
   }
 
-  .img-red {
-    width: 200px;
-    top: 40px;
-    height: 300px;
-    right: 20px;
+  .image-quatro {
+    width: 78%;
+    right: 11vw;
+    top: 98.8vh;
   }
-  .img-red h2 {
-    font-size: 30px;
+  .textImage-quatro {
+    width: 79%;
+    height: 30vh;
+    right: -10vw;
+    top: 98vh;
   }
-  .img-red p {
-    font-size: 13px;
-    width: 70%;
+  .textImage-quatro h3 {
+    top: 3vh;
+    right: 48vw;
+    font-size: 0.9em;
+    width: 40%;
+    height: 4vh;
   }
-  .img-linha {
-    height: 25px;
-    bottom: -200px;
-    left: 10px;
+  .textImage-quatro p {
+    font-size: 0.7em;
+    top: 9vh;
+    right: 5vw;
+    width: 90%;
+    height: 13vh;
   }
-  .container--headerDois {
-    height: 350px;
+  .textImage-quatro a {
+    width: 30%;
+    height: 5vh;
+    top: 22.5vh;
+    right: 52vw;
+    font-size: 0.8em;
+    border: solid 2px;
   }
-  .imgUm {
-    width: 150px;
-    top: 220px;
-    right: 220px;
+  .textImage-quatro::after {
+    right: 70vw;
   }
-  .imgDois {
-    width: 70px;
-    height: 130px;
-    position: absolute;
-    top: 230px;
-    right: 30px;
+  .textImage-quatro::before {
+    left: 70vw;
   }
-  .list {
-    right: 110px;
-    width: 170px;
-    height: 50px;
-    top: 190px;
+  .image-cinco {
+    width: 78%;
+    right: 11vw;
+    top: 127.5vh;
   }
-  .list h2 {
-    font-size: 19px;
+  .textImage-cinco {
+    width: 79%;
+    height: 30vh;
+    right: -10vw;
+    top: 126vh;
   }
-  .list ul {
-    font-size: 9px;
+  .textImage-cinco h3 {
+    top: 3vh;
+    right: 49vw;
+    font-size: 0.9em;
+    width: 40%;
+    height: 4vh;
   }
-  .fundoBranco {
+  .textImage-cinco p {
+    font-size: 0.7em;
+    top: 9vh;
+    right: 5vw;
+    width: 90%;
+    height: 13vh;
+  }
+  .textImage-cinco a {
+    width: 30%;
+    height: 5vh;
+    top: 22.5vh;
+    right: 52vw;
+    font-size: 0.8em;
+    border: solid 2px;
+  }
+  .textImage-cinco::after {
+    right: 70vw;
+  }
+  .textImage-cinco::before {
+    left: 70vw;
+  }
+  .image-seis {
     width: 100%;
-    height: 350px;
-    background-color: #fff;
+    right: 0;
+    top: 160.5vh;
+  }
+  .legenda {
+    width: 65%;
+    top: 198vh;
+    right: 7vw;
+    font-size: 8px;
+  }
+  
+  .capitao {
+    top: -15vh;
+    right: 50vw;
+    width: 87%;
+  }
+
+  .player h2 {
+    right: 13vw;
+    top: -10vh;
+    font-size: 1.2em;
+  }
+  .download {
+    right: 5vw;
+    top: 1vh;
+    width: 45%;
+    height: 22vh;
+  }
+  .numero {
+    font-size: 1em;
+  }
+  .text {
+    vertical-align: center;
+    font-size: 0.6em;
+    width: 60%;
+    height: 9vh;
+  }
+
+  .escolher {
+    right: 5vw;
+    top: 25vh;
+    width: 45%;
+    height: 22vh;
+  }
+  .explorar {
+    right: 5vw;
+    top: 45vh;
+    width: 45%;
+    height: 22vh;
+  }
+
+  .btn{
+    width: 80%;
+    font-size: 0.7em;
   }
 }
